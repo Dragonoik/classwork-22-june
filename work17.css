@@ -1,0 +1,7 @@
+div div {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background-color: grey;
+	transform: translate(50px, 50px) rotate(45deg) scale(0.75, 0.75);
+}

@@ -1,0 +1,64 @@
+.moon{
+	border-radius: 50%;
+	background-color: silver;
+	width: 100px;
+	height: 100px;
+	transform: translate(400px, 400px);
+	transition-property: transform, transition-duration, transition-delay;
+}
+
+.moon:hover .UFO1{
+	transform: translate(-100px, -100px);
+	transition-duration: 2s;
+	transition-delay: 100ms;
+}
+
+.moon:hover .UFO2{
+	transform: translate(45px, -110px);
+	transition-duration: 2s;
+	transition-delay: 200ms;
+}
+
+.moon:hover .UFO3{
+	transform: translate(185px, -120px);
+	transition-duration: 2s;
+	transition-delay: 300ms;
+}
+
+.moon:hover .UFO4{
+	transform: translate(185px, 0px);
+	transition-duration: 2s;
+	transition-delay: 400ms;
+}
+
+.moon:hover .UFO5{
+	transform: translate(100px);
+	transition-duration: 2s;
+	transition-delay: 500ms;
+}
+
+.moon:hover .UFO6{
+	transform: translate(100px);
+	transition-duration: 2s;
+	transition-delay: 600ms;
+}
+
+.moon:hover .UFO7{
+	transform: translate(100px);
+	transition-duration: 2s;
+	transition-delay: 700ms;
+}
+
+.moon:hover .UFO8{
+	transform: translate(100px);
+	transition-duration: 2s;
+	transition-delay: 800ms;
+}
+
+.UFO1, .UFO2, .UFO3, .UFO4, .UFO5, .UFO6, .UFO7, .UFO8{
+	background-color: gray;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	transform: translate(45px, 10px);
+}
